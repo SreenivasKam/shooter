@@ -1,0 +1,109 @@
+body{
+    background-image: url('https://static.theprint.in/wp-content/uploads/2020/03/minor-planets.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+
+}
+h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: aliceblue;
+    letter-spacing: 4px;
+    font-family: 'Luckiest Guy', cursive;
+}
+#restart{
+    margin: auto;
+    position: absolute;
+    right: 10px;
+}
+.top{
+    margin-top: 50px;
+    display: inline-flexbox;
+    text-align: center;
+}
+.btn{
+    margin-top: 60px;
+}
+.ses{
+    color: aliceblue;
+    text-align: center;
+    justify-content: space-evenly;
+    
+}
+.ses2{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+.rock1{
+    transform: rotate(135deg);
+    margin-top: 10px;
+    margin-left: 10px;
+    width:150px ;
+    height:150px;
+}
+.rock2{
+    transform: rotate(-90deg);
+    width:100px ;
+    height:170px;
+}
+.bullet{
+    position: relative;
+    margin:50px;
+    margin-top:78px;
+    right: -30px;
+    border-radius: 100%;
+}
+.lefts{
+    text-align: left;
+}
+.rights{
+    text-align: right;
+}
+.game{
+    padding: 20px;
+}
+.invisible{
+    display: none;
+}
+h3{
+    color: aliceblue;
+    margin-top: 30px;
+}
+@media screen and (max-width: 650px) {
+    body {
+      background-color: blue;
+    }
+    .rock1{
+        transform: rotate(135deg);
+        margin-top: 50px;
+        margin-left: 10px;
+        width:70px ;
+        height:70px;
+    }
+    .rock2{
+        transform: rotate(-90deg);
+        width:50px ;
+        margin-top: 50px;
+        margin-right: 10px;
+        height:70px;
+    }
+    p{
+        font-size: x-small;
+    }
+    .bullet{
+        position: relative;
+        margin:50px;
+        margin-top:78px;
+        right: -40px;
+        border-radius: 100%;
+    }
+    .btn1{
+        margin-left:-40px;
+    }
+
+}
